@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+*{
+  font-family:"Afacad Flux", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: start;
+  font-weight: bold;
+  color: #333;
+}
+header {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40rem;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 0;
+}
+header h1 {
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: cadetblue;
+  text-decoration-line: underline;
+}
+section {
+  position: relative;
+  padding: 30px;
+  align-content: center;
+  height: 700px;
+}
+.landing-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10rem;
+  background-color: #f0f8ff;
+}
+.landing-page img {
+  width: 600px;
+}
+.landing-page div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 1rem;
+}
+.landing-page h1 {
+  font-size: 100px;
+}
+.landing-page p{
+  font-size: 20px;
+  color: #333;
+}
+.spacer{
+  aspect-ratio: 960/100;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url('/images/wave.svg');
+}
+.http-https {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem;
+  background-color: #b3ffe7;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.http-https h1 {
+  flex-basis: 88%;
+  text-align: left;
+  font-size: 10rem;
+}
+.http-https img {
+  width: 70%;
+  height: auto;
+  max-width: 500px;
+  justify-content: flex-end;
+}
+.http-https .desc {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.http-https #source{
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+.http-https h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.http-https p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.http-https a {
+  flex-direction: column;
+  color: #333;
+  text-decoration: underline;
+}
+
+.domain{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem;
+  background-color: #b3ffe7;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.domain h1 {
+  flex-basis: 84%;
+  text-align: right;
+  font-size: 10rem;
+}
+.domain img {
+  width: 70%;
+  height: auto;
+  max-width: 500px;
+  justify-content: flex-end;
+}
+.domain .desc {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.domain #source{
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+.domain h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.domain p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.domain a {
+  flex-direction: column;
+  color: #333;
+  text-decoration: underline;
+}
+
+.hosting {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem;
+  background-color: #b3ffe7;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.hosting h1 {
+  flex-basis: 88%;
+  text-align: left;
+  font-size: 10rem;
+}
+.hosting img {
+  width: 70%;
+  height: auto;
+  max-width: 500px;
+  justify-content: flex-end;
+}
+.hosting .desc {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hosting #source{
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+.hosting h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.hosting p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.hosting a {
+  flex-direction: column;
+  color: #333;
+  text-decoration: underline;
+}
+
+.dns {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem;
+  background-color: #b3ffe7;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.dns h1 {
+  flex-basis: 84%;
+  text-align: right;
+  font-size: 10rem;
+}
+.dns img {
+  width: 70%;
+  height: auto;
+  max-width: 500px;
+  justify-content: flex-end;
+}
+.dns .desc {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.dns #source{
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+.dns h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.dns p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.dns a {
+  flex-direction: column;
+  color: #333;
+  text-decoration: underline;
+}
+
+.browser {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem;
+  background-color: #b3ffe7;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.browser h1 {
+  flex-basis: 88%;
+  text-align: left;
+  font-size: 10rem;
+}
+.browser img {
+  width: 70%;
+  height: auto;
+  max-width: 500px;
+  justify-content: flex-end;
+}
+.browser .desc {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.browser li {
+  list-style: none;
+  font-size: 1.2rem;
+}
+.browser #source{
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+.browser h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.browser p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.browser a {
+  flex-direction: column;
+  color: #333;
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #333;
+  color: white;
+  width: 100%;
+  bottom: 0;
+}
